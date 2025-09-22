@@ -51,12 +51,6 @@ body{
   vertical-align: top;
 }
 
-.outlined-text{
-   color: transparent;
-   -webkit-text-stroke: 3px #fafafa; /* Creates thick outline */
-   -webkit-text-stroke-width: thin;
-}
-
 .subheading-text{
    margin-left: 0px;
    margin-right: 0px;
