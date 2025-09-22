@@ -8,7 +8,7 @@ E3B5A4 light orange
 */
 
 body{
-   color: #F5E9E2;
+   color: #fafafa;
    font-family: 'Poppins', sans-serif;
    background: #18181b;
    font-size: 16px;
@@ -25,33 +25,36 @@ body{
    margin-bottom: 2vw;
    display:flex;
    flex-direction: column;
-   max-width: 500px;
    align-items: center;
+   text-align: center;
 }
 
-.mainHeaderContainer div{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   margin: 0;
+.headerContent{
+   max-width: 600px;
+   margin: 0px;
+   padding: 0px;
    width: 100%;
    box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
 }
 
-.mainHeaderContainer h1{
-   font-family: 'Orbitron', sans-serif;
-   font-size: 6rem;
-   line-height: 1;
-   margin: 0;
-   text-transform: uppercase;
+.headerContent h1{
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+  vertical-align: top;
 }
 
 .outlined-text{
    color: transparent;
-   -webkit-text-stroke: 3px #F5E9E2; /* Creates thick outline */
+   -webkit-text-stroke: 3px #fafafa; /* Creates thick outline */
    -webkit-text-stroke-width: thin;
-   transform: scaleX(1.04);
 }
 
 .subheading-text{
@@ -59,7 +62,6 @@ body{
    margin-right: 0px;
    font-size: 20px;
    font-weight: 400;
-   text-align: center;
 }
 
 /*PROJECTS*/
@@ -113,7 +115,7 @@ body{
    margin-bottom: 5px;
    border: 0;
    border-radius: 4px;
-   color: #F5E9E2;
+   color: #fafafa;
    display: inline-flex;
    align-items: center; 
    padding: 2px 8px 2px 3px;
@@ -167,7 +169,7 @@ footer p{
 }
 
 .social-links div a{
-  color: #F5E9E2;
+  color: #fafafa;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
